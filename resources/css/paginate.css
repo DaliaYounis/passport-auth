@@ -1,0 +1,24 @@
+body > div.products-section.container > div:nth-child(2) > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(2) > span > span:nth-child(even) > span > svg{
+    width: 20px;
+    height: 10px;
+
+}
+
+body > div.products-section.container > div:nth-child(2) > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(2) > span > span:nth-child(odd) > span > svg{
+    width: 20px;
+    height: 10px;
+}
+
+body > div.products-section.container > div:nth-child(2) > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(2) > span > a.relative.inline-flex.items-center.px-2.py-2.text-sm.font-medium.text-gray-500.bg-white.border.border-gray-300.rounded-l-md.leading-5.hover\:text-gray-400.focus\:z-10.focus\:outline-none.focus\:border-blue-300.focus\:shadow-outline-blue.active\:bg-gray-100.active\:text-gray-500.transition.ease-in-out.duration-150 > svg{
+    width: 20px;
+    height: 10px;
+}
+
+body > div.products-section.container > div:nth-child(2) > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(2) > span > span:nth-child(1) > span > svg{
+    width: 20px;
+    height: 10px;
+}
+body > div.products-section.container > div:nth-child(2) > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(2) > span > a.relative.inline-flex.items-center.px-2.py-2.-ml-px.text-sm.font-medium.text-gray-500.bg-white.border.border-gray-300.rounded-r-md.leading-5.hover\:text-gray-400.focus\:z-10.focus\:outline-none.focus\:border-blue-300.focus\:shadow-outline-blue.active\:bg-gray-100.active\:text-gray-500.transition.ease-in-out.duration-150 > svg{
+    width: 20px;
+    height: 10px;
+}

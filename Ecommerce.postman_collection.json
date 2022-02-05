@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "c397f7ed-332f-422c-9bb9-5321c440383a",
+		"name": "Ecommerce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ar",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "ffd",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "dalia681422@hotmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456789",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept-Language",
+						"type": "text",
+						"value": "en"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "dalia681422@hotmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345678",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Forgot-password",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept-Language",
+						"type": "text",
+						"value": "ar"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "dalia681422@hotmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456789",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/forgot-password",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"forgot-password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept-Language",
+						"type": "text",
+						"value": "en"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOTA3YTYzNTg2ZDRhYzkyMDM5YThkNWU1MDBhMWYxMmNhZDBmNGVjOTNhNzkyYWFmNDhiYmZmYTYyNDFlMGZhMTE1YTJiZmIwNmY0N2QwODAiLCJpYXQiOjE2MDY3NDUxNzcsIm5iZiI6MTYwNjc0NTE3NywiZXhwIjoxNjM4MjgxMTc3LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.Q8KB9ijCgu7fC0vbsv0TVB0htCxHiSTIeZVMku45xLkihHSkT4M5oN6TBvqG_AStIa0YWSme9QxLe5Cq95tB8VEpjrCimuuVjHahyyOfPW0Y6h84mNu08PMkS-b-ecemOhvdadFlld2uvr4GhO9-KbOJ7ICELnkKJqDK5nFeyjXH7-NaaD6Z5TZCqDG_2CqAPQHbIAvSZn1k8L2WTRdA2jPgjd0USugTkzRFVq2z89GOPt5YuNZIlatqHC2OVW003g1xoZwAnnT0Oiqt8PeawnelaJR_bIW-MN95-6gb3S9i-MAzDdlMtWn1Bgo29_p_m1jGKRjAaJCuJ5HXD4vhFc0B_s2Il1RrZL0_HxJO8PYmL_eSWad_PIgICMR_j4VFTyg2YEvONnSbDR_auSuqO4g8CY29bBZQsXg2eJTucLE8G85j3GJkRxx-4RxCTeDzJn5HhA__aQdzIN4V5Bh0Ww3PHUUtvrXPANUX6eivAs8QEtmyAFrF4LMigl-9Qzv8adActdoDS8QCxx-Dos7gKWgnC8B2vRgmFxLZYr4G2uT0kLxXA8y-Rq31ULWoc-c-nD4D-1ghSzpdiD9PJUfVCRFl1OEd44Knx_rtQyHZ3_89sxzgNpZShDHquvhV898fZuh4nvqRcUa_Qg7R2nCO3D3HETsDEgqr2LLJiF5eLhQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/logout",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept-Language",
+						"type": "text",
+						"value": "ar"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZTEzYzkxMTE0MjgzNmFmNDUwZDY2ZjczOTBkMWUzNGZiMjkyYjc2NzhmNzRlNjNkNjlhOWU5NjExZTI2NDFiNTA2OGZlMjJiNDE1MDA2MTciLCJpYXQiOjE2MDY3NDQ5NzUsIm5iZiI6MTYwNjc0NDk3NSwiZXhwIjoxNjM4MjgwOTc0LCJzdWIiOiIxMyIsInNjb3BlcyI6W119.fAURWHVeA54QM5QLuWD-O3KJHsDUQT3s_vPpDq6ri-IB3v3axKxCaUN4K-CiEZGbVPgu77_5iZ3qWv6AQde8hmgbx6L_K67WBvq_s1w9ssGV3eIPlKWKmw57IY4X5bmHDDCRbbKYX9GCnehU4OIFaCFOefDVOiZ1e8p8rZAtmQWS07oi2lWgi9aZQIMegdybOGcCm-TuOeVsDXQSscWQsKW9PrFb_RRjQCLJ4eweiBEUcbEjd3LJcyQAoXwTU83jkgM328b8F6trgm7Ed2vcCSVURIcEBpF1xcwn_GfjgFY3kKoHDUPHM4BrTvn48-Vz3-DUkdipD5N_b5dcZ5-1G-czTDLVX8GHpVmrqxbkyl-SolSTsK7tSFSunDxHgKeN6CmOzNuryKWbSCQvhGKzFoxQjCh-MS8MgywuGHY7bNzcklbqio14BfKJK1OlnQkP4MG9xZA3r_9IzwwEBJMTZCbqfj5Ij0-eeVbLQjMCQiLMyaqbFyZRmDrYa06tExZLc9AXnQ8QZGlxEijc-D1JGxbKQSvl5wmF88HNktF8bLadwB4kxOR2TcZnIljXcwDrqSF9cuJ6C_HnXcOxpQn5xG66Fd0mOKyPRtgdG-cqmzgju-Csof1oozPgqTOC4ApQBJ9Hydb1V98bYcz6ihihb_epZbXeahwJc91gB5xAgK8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/product",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
